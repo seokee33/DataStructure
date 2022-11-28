@@ -27,7 +27,7 @@ public class MyQueue<T> {
     }
 
     public T deQueue() {
-        if (isEmpty()){
+        if (queue.isEmpty()){
             System.out.println("isEmpty");
             return null;
         }else
@@ -35,19 +35,12 @@ public class MyQueue<T> {
     }
 
     public T peek(){
-        if(isEmpty())
+        if(queue.isEmpty())
             return null;
         else
             return queue.get(0);
     }
 
-
-    public boolean isEmpty() {
-        if (queue.size() > 0)
-            return false;
-        else
-            return true;
-    }
 
     public boolean isFull(){
         if(queue.size()<count)
