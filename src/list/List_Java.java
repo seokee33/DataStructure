@@ -5,6 +5,7 @@ import java.util.List;
 
 public class List_Java {
     public static void main(String[] args) {
+
         //배열 선언
         int[] iArr = {1, 2, 3, 4, 5};
         int[] iArr2 = new int[5];
