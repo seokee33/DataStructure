@@ -20,7 +20,7 @@ public class List_Arrays {
         //배열을 출력 -> Arrays.toString(배열)
         System.out.println(Arrays.toString(iArr));
 
-        //배열을 내림차순으로 정렬
+        //배열을 오름차순으로 정렬
         Arrays.sort(iArr);
         System.out.println("sort : "+Arrays.toString(iArr));
 
