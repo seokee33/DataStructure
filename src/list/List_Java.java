@@ -1,28 +1,31 @@
 package list;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class List_Java {
     public static void main(String[] args) {
-
-        //배열 선언
-        int[] iArr = {1, 2, 3, 4, 5};
-        int[] iArr2 = new int[5];
+        //List
+        List<Boolean> sArr = new ArrayList<>();
 
         //ArrayList
-        /*
-            List와 ArrayList의 차이
-            List : interface
-            AbstractList : List를 정의한 클래스
-            ArrayList : AbstractList를 상속받은 클래스
+        ArrayList<Boolean> sArr2 = new ArrayList<>();
 
-            List를 사용하려면
-            import java.util.List를 해야한다!!
-         */
+        //LinkedList
+        LinkedList<Boolean> sLinkedArr = new LinkedList<>();
 
-        List<String> sArr = new ArrayList<>();
-        ArrayList<String> sArr2 = new ArrayList<>();
+        //Collections 을 사용하여 List를 더 효과적으로 사용
+        sArr2.add(true);
+        sArr2.add(false);
+        sArr2.add(true);
+        sArr2.add(false);
+        sArr2.add(true);
+        Collections.fill(sArr2,false);
+        for(Boolean data: sArr2)
+            System.out.println(data);
+
 
     }
 }
