@@ -5,6 +5,19 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+
+
+/**
+ * List
+ *      - ArrayList
+ *      - LinkedList
+ *
+ *  - Function
+ *      - add(value) : 추가
+ *      - size() : 리스트의 크기를 반환
+ *      - remove(value or index) : 삭제
+ *      - get(index) : 인덱스의 값을 반환환
+ *     */
 public class List_Java {
     public static void main(String[] args) {
         //List
@@ -22,10 +35,10 @@ public class List_Java {
         sArr2.add(true);
         sArr2.add(false);
         sArr2.add(true);
+
         Collections.fill(sArr2,false);
         for(Boolean data: sArr2)
             System.out.println(data);
-
 
     }
 }
