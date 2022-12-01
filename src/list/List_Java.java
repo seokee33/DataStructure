@@ -17,7 +17,8 @@ import java.util.List;
  *      - size() : 리스트의 크기를 반환
  *      - remove(value or index) : 삭제
  *      - get(index) : 인덱스의 값을 반환환
- *     */
+ */
+
 public class List_Java {
     public static void main(String[] args) {
         //List
